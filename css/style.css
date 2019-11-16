@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container{
+	width:300px;/**宽度**/
+    height:100px;/**高度**/
+    position:absolute;/**绝对定位**/
+    left:50%;/**左边50%**/
+    top:50%;/**顶部50%**/
+    margin-top:-50px;/**上移-50%**/
+    margin-left:-100px;/**左移-50%**/
+}
+.flex-item{
+	display: flex;
+	flex-direction: column;
+}
+.flex-item input{
+	width: 300px;
+	height: 30px;
+	border: 1px solid green;
+	border-radius: 5px;
+}
+.flex-item button{
+	width: 300px;
+	height: 35px;
+	margin-top: 3px;
+	border: 1px solid green;
+	border-radius: 5px;
+	background-color: fuchsia;
+}
+.flex-span{
+	font-size: 20px;
+}
+h3{
+	text-align: center;
+}
+
+
+
+#success h1{
+	font-size: 50px;/*设置字体大小*/	
+	text-align: center;
+	color: red;
+	/*display: none;*/
+}
